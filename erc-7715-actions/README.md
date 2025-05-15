@@ -1,22 +1,38 @@
-# 🦊 MetaMask DTK Track: Best Use of ERC-7715 Actions
+# 🪦 LegacyChain – Time-Released Memory Vault
+
+> A MetaMask DTK Hackathon Project (ERC-7715 Actions Track)
 
 ## Problem
-How can we unlock advanced features like token streaming, delegated permissions, or subscriptions using the new ERC-7715 Actions feature?
 
-## Solution Idea
-Build a **Web3 Subscription Platform** where creators can grant limited-time access to content using token streams via DTK.
+People want to leave digital assets, messages, and tokens to their loved ones — but there's no trustless, decentralized way to do it securely and with timing controls.
 
-- Stream-based access control
-- Delegated content access for teams or DAOs
-- Works with MetaMask Snap or DTK SDK
+## Solution
+
+LegacyChain is a decentralized, time-locked memory vault powered by MetaMask’s Delegation Toolkit (ERC-7715 Actions). It allows users to:
+
+- Stream unlock permissions to loved ones
+- Set future conditions (e.g. after 1 year of inactivity)
+- Delegate guardians to manage retrieval
+- Leave messages, NFTs, or token gifts for the future
 
 ## Tools / Stack
-- MetaMask DTK (ERC-7715 Actions)
-- Replit (no local install)
-- Scaffolded via Thirdweb/Fleek if needed
+
+- MetaMask Delegation Toolkit (ERC-7715 Actions)
+- Replit (React frontend, DTK integration)
+- NFT.Storage or IPFS (for storing messages/images)
+- Optional: Gaia Agent for smart guardianship logic
+
+## Features
+
+- Vault Creation: Write messages, upload files, attach NFTs
+- Time Logic: Release on a specific date or upon inactivity
+- Delegation: Grant access to loved ones with limited rights
+- Auto-Revocation: Streamed access stops after time expires
 
 ## To Do
-- [ ] Define smart contract use cases
-- [ ] Simulate interactions with DTK
-- [ ] UI mock or working prototype
-- [ ] Finalize submission docs
+
+- [ ] Create UI screens (mockups or Replit)
+- [ ] Simulate DTK delegation actions (write pseudocode or logic flow)
+- [ ] Describe lifecycle of a vault (create ➝ delegate ➝ unlock)
+- [ ] Finalize README for submission
+- [ ] Record walkthrough or Loom demo
